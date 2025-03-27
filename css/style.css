@@ -64,7 +64,11 @@ main {
     align-items: center;
     margin: 20px 0;
 }
-
+.description {
+    margin-top: 15px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
 .section-image img {
     width: 300px;
     height: auto;
@@ -151,4 +155,12 @@ input[type="button"] {
 
 #btn-reset-luas:hover, #btn-reset-keliling:hover, #btn-reset-pp-luas:hover, #btn-reset-pp-keliling:hover {
     background-color: #a71d2a;
+}
+.footer-text {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    
+
 }
