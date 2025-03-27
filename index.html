@@ -1,0 +1,129 @@
+<!--ini adalah comment html-->
+
+<!doctype html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT REVOU KATIK-WANTYA</title>
+
+    <!--EKSTENSION CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header></header>
+    <header class="main-header">
+        <h1>Katik</h1><h2>Kalkulator Matematik</h2>
+    </header>
+
+    <!--Main Content-->
+    <main>
+    <!--Welcome Speech-->
+    <header>
+        <h1> Welcome to Katik!</h1>
+    </header>
+        <p> Haii gurlls Katik ini merupakan alat untuk mempermudah kamu<br>
+        untuk menghitung luas dan keliling suatu persegi ataupun persegi panjang</p>
+    
+    <!--Navigasi Fitur-->
+    <div class="nav-fitur">
+        <a href="" class="nav-fitur-active">Persegi</a><br>
+        <a href="" class="nav-fitur-non-active">Persegi panjang</a>
+    </div>
+
+    <!--LUAS PERSEGI-->
+    <section>
+        <header class="section-header">
+            <h1>Luas Persegi</h1>
+        </header>
+
+    <!--GAMBAR LUAS PERSEGI-->
+    <div class="section-image">
+        <img src="assets/Rumus-Persegi.webp" alt="Luas Persegi">
+    </div>
+
+    <!--PERHITUNGAN LUAS PERSEGI-->
+    <div class="calculate-content">
+        <input type="number" id="luas-content" placeholder="Nilai Sisi">
+        <input type="button" id="btn-luas-content" value="Hitung">
+        <input type="button" id="btn-reset-luas" value="Reset">
+    </input>
+    </div>
+    </section>
+
+    <!--KELILING PERSEGI-->
+    <section>
+        <header class="section-header">
+            <h1>Keliling Persegi</h1>
+        </header>
+
+    <!--Gambar Keliling Persegi-->
+    <div class="section-image">
+        <img src="assets/Rumus-Persegi.webp" alt="Keliling Persegi">
+    </div>
+    
+    
+    <!--PERHITUNGAN KELILING PERSEGI-->
+    <div class="calculate-content">
+        <input type="number" id="keliling-content" placeholder="Nilai Sisi">
+        <input type="button" id="btn-keliling-content" value="Hitung">
+        <input type="button" id="btn-reset-keliling" value="Reset">
+    </input>
+    </div>
+    </section>
+
+    <!-- Section Luas Persegi Panjang -->
+    <section>
+        <header class="section-header">
+            <h1>Luas Persegi Panjang</h1>
+        </header>
+
+        <!-- Gambar Persegi Panjang -->
+        <div class="section-image"></div>
+            <img src="assets/persegi panjang.png"width="300px" alt="Persegi panjang">
+        </div> 
+        <!-- Konten Perhitungan -->
+        <div class="calculate-content">
+            <input type="number" id="panjang-luas" placeholder="Panjang">
+            <input type="number" id="lebar-luas" placeholder="Lebar">
+            <input type="button" id="btn-hitung-pp-luas" value="Hitung">
+            <input type="button" id="btn-reset-pp-luas" value="Reset">
+        </div>
+    </input>
+    </section>
+
+    <!-- Section Keliling Persegi Panjang -->
+    <section>
+        <header class="section-header">
+            <h1>Keliling Persegi Panjang</h1>
+        </header>
+
+        <!-- Gambar Persegi Panjang -->
+        <div class="section-image"></div>
+            <img src="assets/persegi panjang.png"width="300px" alt="Persegi panjang">
+        </div> 
+        <!-- Konten Perhitungan -->
+        <div class="calculate-content">
+            <input type="number" id="panjang-keliling" placeholder="Panjang">
+            <input type="number" id="lebar-keliling" placeholder="Lebar">
+            <input type="button" id="btn-hitung-pp-keliling" value="Hitung">
+            <input type="button" id="btn-reset-pp-keliling" value="Reset">
+        </div>
+    </input>
+    </section>
+    </main>
+
+    <!--Footer-->
+<footer>
+    <p>Made by Wantya@2025</p>
+</footer>
+
+<!--Memasukan script Java-->
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

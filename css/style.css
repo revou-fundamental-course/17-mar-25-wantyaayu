@@ -1,7 +1,154 @@
-/* ini comment css*/
+/* === Global Styles === */
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* === Main Header === */
 .main-header {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     text-align: center;
-    background-color: aqua;
+    padding: 24px;
+    border-radius: 20px;
+    background-color: darksalmon;
+}
+
+.main-header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.main-header h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    margin: 0;
+    display: inline-block;
+}
+
+main > header h1 {
+    font-family: auto;
+    font-size: 25px;
+}
+.section-header {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    background-color: darksalmon;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* === Main Content (Pusatkan Semua Elemen) === */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* === Gambar === */
+.section-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.section-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* === Navigasi Fitur === */
+.nav-fitur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+}
+
+.nav-fitur a {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+/* === Container Perhitungan (Pusatkan) === */
+.calculate-content {
+    border: 1px solid black;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Pusatkan input dan tombol */
+    gap: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* === Input Styling === */
+input[type="number"] {
+    width: 100px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+/* === Tombol Styling === */
+input[type="button"] {
+    width: 100px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Tombol Hitung */
+#btn-hitung-keliling, #btn-luas-content, #btn-keliling-content, #btn-hitung-pp-luas, #btn-hitung-pp-keliling {
+    background-color: #007bff;
+    color: white;
+}
+
+#btn-hitung-luas:hover, #btn-hitung-keliling:hover, #btn-luas-content:hover, #btn-keliling-content:hover {
+    background-color: #0056b3;
+}
+
+/* Tombol Reset */
+#btn-reset, #btn-reset-luas, #btn-reset-keliling, #btn-reset-pp-luas, #btn-reset-pp-keliling {
+    background-color: #dc3545;
+    color: white;
+}
+
+#btn-reset-luas:hover, #btn-reset-keliling:hover, #btn-reset-pp-luas:hover, #btn-reset-pp-keliling:hover {
+    background-color: #a71d2a;
 }
